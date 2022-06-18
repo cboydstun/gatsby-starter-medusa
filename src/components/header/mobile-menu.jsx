@@ -87,6 +87,20 @@ const MobileMenu = ({ open, setOpen }) => {
                 >
                   Products
                 </Link>
+                <Link
+                  to={"/about"}
+                  className="-m-2 p-2 block font-medium text-gray-900"
+                  onClick={() => setOpen(false)}
+                >
+                  About
+                </Link>
+                <Link
+                  to={"/blog"}
+                  className="-m-2 p-2 block font-medium text-gray-900"
+                  onClick={() => setOpen(false)}
+                >
+                  Blog
+                </Link>
               </div>
               <div className="flow-root">
                 <Link

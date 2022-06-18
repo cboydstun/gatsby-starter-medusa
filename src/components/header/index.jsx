@@ -8,7 +8,7 @@ import HeaderLink from "./header-link"
 import MobileMenu from "./mobile-menu"
 import RegionPopover from "./region-popover"
 
-import './index.css'
+import "./index.css"
 
 const mockData = {
   customer: {
@@ -122,6 +122,9 @@ const Header = () => {
             <div className="hidden lg:flex lg:items-center">
               <div className="hidden flex-grow items-center justify-center lg:flex text-sm font-medium">
                 <HeaderLink to="/products" text="Products" />
+                <HeaderLink to="/about" text="About" />
+                <HeaderLink to="/blog" text="Blog" />
+
                 <HeaderLink to="/collections" text="Collections" />
               </div>
             </div>
