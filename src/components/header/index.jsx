@@ -8,6 +8,8 @@ import HeaderLink from "./header-link"
 import MobileMenu from "./mobile-menu"
 import RegionPopover from "./region-popover"
 
+import './index.css'
+
 const mockData = {
   customer: {
     first_name: "Kasper",

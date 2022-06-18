@@ -7,6 +7,8 @@ import Grid from "../components/utility/grid"
 import SearchEngineOptimization from "../components/utility/seo"
 import { useCollections } from "../hooks/use-collections"
 
+import "./index.css"
+
 const IndexPage = ({ data }) => {
   const { products, collections } = data
   const prods = data.products.edges.map(edge => edge.node)
@@ -15,7 +17,7 @@ const IndexPage = ({ data }) => {
   return (
     <div>
       <SearchEngineOptimization title="Home" />
-      <div className="bg-ui-light pb-12 lg:pb-0 w-full px-4 sm:px-6 lg:px-12">
+      <div className="hero pb-12 lg:pb-0 w-full px-4 sm:px-6 lg:px-12">
         <div className="flex flex-col lg:flex-row items-center max-w-screen-2xl mx-auto">
           <StaticImage
             src="../images/hero-merch.png"
